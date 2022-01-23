@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+
+        android:id="@+id/fileName"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Enter a name for your file"
+        android:layout_centerVertical="true" />
+
+    <Button android:id="@+id/btnselect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select File"
+        android:layout_below="@id/fileName" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progressbar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/viewstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No file selected"
+            android:textAlignment="4" />
+
+        <TextView
+            android:id="@+id/viewuploads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="View Uploads"
+            android:textAlignment="4"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:layout_below="@+id/btnselect"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

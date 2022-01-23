@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720091534745",
+    "project_id": "csc-messenger",
+    "storage_bucket": "csc-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720091534745:android:f29147f5275d472d10af08",
+        "android_client_info": {
+          "package_name": "com.kasucsc.cscmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720091534745-7frv6jit1dd5gjti37b28ntt5rk4id8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASSyjRS9EnsluNLuHCIKegMAnpVPZxwwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720091534745-7frv6jit1dd5gjti37b28ntt5rk4id8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

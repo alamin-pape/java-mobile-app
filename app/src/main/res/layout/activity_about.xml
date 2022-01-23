@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/project3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image5" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="MISSION OF THE UNIVERSITY"
+        android:textColor="#8BC34A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twittertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="The philosophy establishing Kaduna State in Nigeria generally is to
+        build national capacity to move the country from it’s
+        status of a third world and developing nation to that of an advanced and developed nation,
+        through technological advancement that drives development, and develop high
+         level manpower that will create job and wealth.  "
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR VISION"
+        android:layout_marginLeft="50dp"
+        android:textColor="#8BC34A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="The Kaduna State University was established to
+        provide all-round university education of the highest standard
+        for the development of the individual and the state, while
+        inculcating the spirit of love, tolerance, understanding and
+        unity in the state in particular and the country in general."
+
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="© Al-Amin, 2021"
+        android:textSize="50sp" />
+
+
+</LinearLayout>
